@@ -3,7 +3,7 @@ module.exports = {
     "es6": true,
     "node": true
   },
-  "extends": "eslint:recommended",
+  // "extends": "eslint:recommended",
   "parserOptions": {
     "sourceType": "module"
   },
@@ -18,7 +18,7 @@ module.exports = {
     "func-call-spacing": [ "error", "never" ],
     "indent": [ "error", 2 ],
     "keyword-spacing": [ "error" ],
-    "linebreak-style": [ "error", "unix" ],
+    "linebreak-style": [ "error", "windows" ],
     "max-len": [ "error" ],
     "no-else-return": [ "error" ],
     "no-empty-function": [ "error" ],
